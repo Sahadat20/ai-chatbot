@@ -25,8 +25,6 @@ To control **AI usage costs**, a **rate limiter** is implemented with different 
 │   ├── chat.js        # POST /api/chat → AI responses (rate limited)
 │   ├── login.js       # POST /api/login → Issue mock tokens
 │   └── status.js      # GET /api/status → Show remaining requests
-├── middleware/
-│   └── rateLimiter.js # Rate limiter logic
 ├── package.json
 └── README.md
 ```

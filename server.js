@@ -12,9 +12,9 @@ const JWT_SECRET = process.env.JWT_SECRET;
 
 const rateLimitWindowMs =  60 * 1000; // 1 minute
 const userTiers = {
-  guest: { limit: 1 },
-  free: { limit: 2},
-  pro: { limit: 3 },
+  guest: { limit: 3 },
+  free: { limit: 10},
+  pro: { limit: 50},
 };
 
 // --- MOCK DATABASE ---
